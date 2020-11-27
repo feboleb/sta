@@ -1,0 +1,2 @@
+2020-11-07T11:15:27+00:00 CRITICAL Out of memory (allocated 35651584) (tried to allocate 20480 bytes) în /home/stampil1/public_html/wp-includes/pomo/streams.php pe linia 215
+

@@ -1,0 +1,12 @@
+.tippy-content {
+		overflow: hidden;
+    text-align: center;
+}
+
+.berocket_tooltip_image {
+    display: block;
+}
+
+.berocket_tooltip_text {
+	white-space: pre-wrap;
+}

@@ -1,0 +1,55 @@
+
+
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# BEGIN WPSuperCache
+# Directivele (liniile) între „BEGIN WPSuperCache” și „END WPSuperCache” sunt
+# generate dinamic și ar trebui modificate numai prin filtrele WordPress.
+# Toate modificările la directivele cuprinse între acești marcatori vor fi suprascrise.
+# END WPSuperCache
+# BEGIN WordPress
+# Directivele (liniile) între „BEGIN WordPress” și „END WordPress” sunt
+# generate dinamic și ar trebui modificate numai prin filtrele WordPress.
+# Toate modificările la directivele cuprinse între acești marcatori vor fi suprascrise.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+# Wordfence WAF
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/stampil1/public_html/wordfence-waf.php'
+</IfModule>
+<IfModule lsapi_module>
+php_value auto_prepend_file '/home/stampil1/public_html/wordfence-waf.php'
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+
+# END Wordfence WAF
+
+
+# BEGIN LiteSpeed
+# Directivele (liniile) între „BEGIN LiteSpeed” și „END LiteSpeed” sunt
+# generate dinamic și ar trebui modificate numai prin filtrele WordPress.
+# Toate modificările la directivele cuprinse între acești marcatori vor fi suprascrise.
+<IfModule Litespeed>
+SetEnv noabort 1
+</IfModule>
+# END LiteSpeed

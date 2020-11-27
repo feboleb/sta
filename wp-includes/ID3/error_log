@@ -1,0 +1,4 @@
+[27-Sep-2020 20:08:37 UTC] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/stampil1/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/stampil1/public_html/wp-includes/ID3/module.audio.ac3.php on line 18

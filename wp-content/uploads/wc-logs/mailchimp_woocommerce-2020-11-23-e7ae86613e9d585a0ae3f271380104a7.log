@@ -1,0 +1,42 @@
+2020-11-23T07:00:15+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id cedb5dd740c29f6192e6e6cd5f8d3271
+2020-11-23T07:00:16+00:00 NOTICE abandoned_cart.success :: email: andreicos96@yahoo.com :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=cedb5dd740c29f6192e6e6cd5f8d3271
+2020-11-23T07:00:16+00:00 NOTICE cart.member.updated :: Updated andreicos96@yahoo.com subscriber status to transactional and language to ro
+2020-11-23T07:03:06+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id cedb5dd740c29f6192e6e6cd5f8d3271
+2020-11-23T07:03:07+00:00 NOTICE abandoned_cart.success :: email: andreicos96@yahoo.com :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=cedb5dd740c29f6192e6e6cd5f8d3271
+2020-11-23T07:03:17+00:00 NOTICE ac.cart_swap :: Deleted cart [andreicos96@yahoo.com] :: ID [cedb5dd740c29f6192e6e6cd5f8d3271]
+2020-11-23T07:03:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 53adb7e9eab98d00321d2be180538a6e
+2020-11-23T07:04:38+00:00 NOTICE abandoned_cart.success :: email: concept.srl@yahoo.com :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=53adb7e9eab98d00321d2be180538a6e
+2020-11-23T07:04:38+00:00 NOTICE cart.member.updated :: Updated concept.srl@yahoo.com subscriber status to transactional and language to ro
+2020-11-23T07:10:01+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 4017
+2020-11-23T07:10:04+00:00 NOTICE debug :: Order ID 4017 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?gclid=CjwKCAiAtej9BRAvEiwA0UAWXs9R1Sy8brLVkN-4f-FD8TsOoM_5qWvmRBajXZlmUE1ZC-FObwb2gxoC4cIQAvD_BwE
+        )
+
+)
+
+2020-11-23T07:11:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 5
+2020-11-23T07:11:31+00:00 NOTICE debug :: Order ID 4017 was processing and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-11-23T07:19:21+00:00 NOTICE order.member.updated :: Updated concept.srl@yahoo.com subscriber status to subscribed and language to ro
+2020-11-23T07:19:21+00:00 NOTICE order_submit.success :: addStoreOrder :: #4017 :: email: concept.srl@yahoo.com :: landing site https://www.stampilerapide.ro/?gclid=CjwKCAiAtej9BRAvEiwA0UAWXs9R1Sy8brLVkN-4f-FD8TsOoM_5qWvmRBajXZlmUE1ZC-FObwb2gxoC4cIQAvD_BwE :: abandoned cart deleted [53adb7e9eab98d00321d2be180538a6e]
+2020-11-23T07:19:21+00:00 NOTICE member.sync :: Updated Member ANDREICOS96@YAHOO.COM :: Array
+(
+    [previous_status] => transactional
+    [status] => 1
+    [merge_fields] => Array
+        (
+            [FNAME] => Andrei Razvan
+            [LNAME] => Cosmescu
+        )
+
+)
+

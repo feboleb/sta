@@ -1,0 +1,17 @@
+2020-11-12T22:43:45+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 2fc726637fd90368bb5a4839f1b9b185
+2020-11-12T22:43:46+00:00 NOTICE abandoned_cart.success :: email: cristianistratescupersonal@gmail.com :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=2fc726637fd90368bb5a4839f1b9b185
+2020-11-12T22:43:46+00:00 NOTICE cart.member.updated :: Updated cristianistratescupersonal@gmail.com subscriber status to transactional and language to ro
+2020-11-12T22:44:36+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 3913
+2020-11-12T22:44:38+00:00 NOTICE debug :: Order ID 3913 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?gclid=EAIaIQobChMIvbXo34j-7AIVCtOyCh1aRgWiEAAYASAAEgIYgvD_BwE
+        )
+
+)
+
+2020-11-12T22:46:30+00:00 NOTICE order.member.updated :: Updated cristianistratescupersonal@gmail.com subscriber status to subscribed and language to ro
+2020-11-12T22:46:30+00:00 NOTICE order_submit.success :: addStoreOrder :: #3913 :: email: cristianistratescupersonal@gmail.com :: landing site https://www.stampilerapide.ro/?gclid=EAIaIQobChMIvbXo34j-7AIVCtOyCh1aRgWiEAAYASAAEgIYgvD_BwE :: abandoned cart deleted [2fc726637fd90368bb5a4839f1b9b185]

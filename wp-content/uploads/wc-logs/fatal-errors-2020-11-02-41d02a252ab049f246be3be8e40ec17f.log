@@ -1,0 +1,1056 @@
+2020-11-02T00:06:36+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T00:21:28+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T00:40:45+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T00:47:12+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T00:48:19+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T01:26:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T01:27:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T01:35:56+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T02:14:14+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T02:19:29+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T02:59:18+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:02:11+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:04:54+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:04:55+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:06:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:06:04+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:06:06+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:07:12+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:07:13+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:07:15+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:08:21+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:08:22+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:08:24+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:35:40+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:43:52+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T03:47:02+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:36:29+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:43:11+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:45:47+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:49:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:51:34+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T04:52:47+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:05:14+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:19:34+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:22:36+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:24:42+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:38:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:40:38+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T05:42:18+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T06:25:43+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T06:28:33+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T06:30:43+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T07:10:39+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T07:18:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T07:21:20+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T07:51:38+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T07:58:13+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T08:02:48+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T09:32:08+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T09:34:47+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T09:34:48+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T09:37:32+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:06:58+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:20:14+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:21:25+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:22:48+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:25:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T10:46:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:15:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:16:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:19:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:26:35+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:31:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:32:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:35:40+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:36:42+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T11:57:05+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:07:28+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:10:26+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:13:51+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:16:55+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:23:37+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:24:52+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:25:54+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:28:09+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T12:38:38+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T13:04:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T13:24:14+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T13:26:00+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T13:27:45+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T13:49:48+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:21:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:25:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:27:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:48:46+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:50:29+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:51:31+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T14:57:51+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T15:27:21+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T15:34:28+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T15:46:26+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:06:33+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:08:13+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:15:47+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:38:27+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:46:20+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:55:52+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T16:57:52+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:01:57+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:08:18+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:12:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:20:31+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:47:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:53:28+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T17:57:32+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T18:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T18:34:06+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T18:35:45+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T18:48:19+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:13:56+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:30:19+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:34:43+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:41:39+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:43:00+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:44:57+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:46:31+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T19:48:27+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T20:00:46+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T20:36:07+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T20:54:05+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T21:06:20+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T21:21:17+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T21:25:30+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T21:27:01+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:00:54+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:08:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:08:49+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:10:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:15:49+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:45:14+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+
+2020-11-02T23:50:04+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on string in /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php:1115
+Stack trace:
+#0 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(674): SkyVerge\WooCommerce\Facebook\Products::get_enhanced_catalog_attribute('gender', Object(WC_Product_Variation))
+#1 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproduct.php(605): WC_Facebook_Product->apply_enhanced_catalog_fields_from_attributes(Array, '4341')
+#2 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(646): WC_Facebook_Product->prepare_product('printer-20-colo...', 'feed')
+#3 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/fbproductfeed.php(580): WC_Facebook_Product_Feed->prepare_product_for_feed(Object(WC_Facebook_Product), Array)
+#4 /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includ în /home/stampil1/public_html/wp-content/plugins/facebook-for-woocommerce/includes/Products.php pe linia 1115
+

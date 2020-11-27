@@ -1,0 +1,18 @@
+2020-11-21T12:52:24+00:00 NOTICE debug :: Order ID 4009 was processing and is now on-hold :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-11-21T12:52:24+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 4009
+2020-11-21T12:54:03+00:00 NOTICE order.member.updated :: Updated munteanumar@gmail.com subscriber status to subscribed and language to 
+2020-11-21T12:54:03+00:00 NOTICE order_submit.success :: updateStoreOrder :: #4009 :: email: munteanumar@gmail.com
+2020-11-21T12:54:09+00:00 NOTICE debug :: Order ID 4009 was on-hold and is now completed :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-11-21T12:54:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 4009
+2020-11-21T12:56:06+00:00 NOTICE order.member.updated :: Updated munteanumar@gmail.com subscriber status to subscribed and language to 
+2020-11-21T12:56:06+00:00 NOTICE order_submit.success :: updateStoreOrder :: #4009 :: email: munteanumar@gmail.com

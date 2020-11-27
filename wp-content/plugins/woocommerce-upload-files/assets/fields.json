@@ -1,0 +1,2521 @@
+[
+    {
+        "key": "group_5681280d33aa8",
+        "title": "WooCommerce Upload Files - General options",
+        "fields": [
+            {
+                "key": "field_5eaa823b337a4",
+                "label": "Quantity & auto upload",
+                "name": "wcuf_general_options_divider_1",
+                "type": "divider",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "custom_css": "",
+                "font_size": 14
+            },
+            {
+                "key": "field_577fd3b94729a",
+                "label": "Enable quantity selection",
+                "name": "wcuf_enable_quantity_selection",
+                "type": "select",
+                "instructions": "in case of <strong>multiple files upload<\/strong> you can allow your customers to specify for each upload a quantity. This could be useful, for example, if a customer of yours would like to have multiple prints of a file.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_59706f74d0d04",
+                "label": "Auto upload",
+                "name": "wcuf_auto_upload_for_multiple_files_upload_field",
+                "type": "select",
+                "instructions": "in case of <strong>multiple files upload<\/strong> files will be automatically uploaded once they have been selected.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_577fd3b94729a",
+                            "operator": "==",
+                            "value": "no"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5860dc86da77d",
+                "label": "Max uploadable files: considered as sum of uploaded file quantities",
+                "name": "wcuf_max_uploaded_files_number_considered_as_sum_of_quantities",
+                "type": "select",
+                "instructions": "For <strong>multiple files upload field<\/strong> type, you can consider as number of uploaded files the sum of selected quantities.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_577fd3b94729a",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a5e20a55ef26",
+                "label": "Product cart quantity as number of uploaded files",
+                "name": "wcuf_cart_quantity_as_number_of_uploaded_files",
+                "type": "select",
+                "instructions": "<p>Product cart quantity will be sum of uploaded files. In case of multiple files field, the sum will consider also file quantities.<\/p>\r\n<p><strong>NOTE:<\/strong> this option will disable the quantity selector on the product pages<\/p>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5eaa7d079a57a",
+                "label": "Show the quantity for each upload in the item cart table",
+                "name": "wcuf_cart_quantity_show_uploads_quantity",
+                "type": "select",
+                "instructions": "<p>By default, quanitity are not showed next each uploads<\/p>",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_577fd3b94729a",
+                            "operator": "==",
+                            "value": "yes"
+                        },
+                        {
+                            "field": "field_5a5e20a55ef26",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5eaa829f337a5",
+                "label": "Mandatory",
+                "name": "wcuf_general_options_divider_2",
+                "type": "divider",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "custom_css": "",
+                "font_size": 14
+            },
+            {
+                "key": "field_5832b467c2b1a",
+                "label": "Show the required upload message in case of mandatory upload fields",
+                "name": "wcuf_show_required_upload_add_to_cart_warning_message",
+                "type": "select",
+                "instructions": "By default the plugin, in case of mandatory uploads, shows a text message to allow the user know that they have to upload a file before being able to add the product to cart.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_57924b6d8fa6e",
+                "label": "Allow user to leave page in case of required field",
+                "name": "wcuf_allow_user_to_leave_page_in_case_of_required_field",
+                "type": "select",
+                "instructions": "<p>By default the user won't be able to leave the page until the mandatory uploads have not been completed (for product pages this will happen only after the product has been added to cart, see the next option for more info).<br>\r\nSelecting <strong>Show required upload warning only at first leave attempt<\/strong> option, the user will be prompted only at the first try to leave the page with a warning message, then he will be able to leave the page.<\/p>\r\n<p>\r\nSelecting <strong>Always<\/strong>, No warning message about the required upload to perform will be prompted. \r\n<\/p>\r\n<p>Keep in mind that in <strong>any case the user will not be able to complete the checkout<\/strong>if all the required upload have been performed. Infact clicking the <i>Place order<\/i> button on checkout page, the plugin will prevent the order to be placed and it will displayed a notice reminding to perform all the required upload\r\n<\/p>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Show required upload warning only at first leave attempt",
+                    "always": "Always (Required upload message will never be displayed)"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_577cf16e875c8",
+                "label": "Force mandatory uploads check in Product page before adding item to the cart",
+                "name": "wcuf_force_require_check_befor_adding_item_to_car",
+                "type": "select",
+                "instructions": "<p>By default, <strong>if in Product page has been enabled the option to show fields before adding to cart<\/strong>, the upload requirement check is performed after an item is added to the cart. This behaviour avoids the users who are simple reading the product page to be not able to leave it if they don't want to purchase the product.<\/p>\r\n<p>Enabling this option, in case an upload field has been configured to be showed before an item is added to the cart, the requierment check is performed before the item is added to the cart.<\/p>",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57924b6d8fa6e",
+                            "operator": "==",
+                            "value": "no"
+                        }
+                    ],
+                    [
+                        {
+                            "field": "field_57924b6d8fa6e",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5eaa8341337a7",
+                "label": "Display",
+                "name": "wcuf_general_options_divider_4",
+                "type": "divider",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "custom_css": "",
+                "font_size": 14
+            },
+            {
+                "key": "field_5736dcc84eeab",
+                "label": "Display the last order upload fields in My Account page",
+                "name": "wcuf_display_last_order_upload_fields_in_my_account_page",
+                "type": "select",
+                "instructions": "Show the upload fields form for the last order in my account page",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5cc018fc5efe3",
+                "label": "Display the user feedback on Order details sheet",
+                "name": "wcuf_display_user_feedback_on_order_details_sheet",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5697af32ebd65",
+                "label": "Disable \"View\" button feature",
+                "name": "wcuf_disable_view_button",
+                "type": "select",
+                "instructions": "If a product has at least a required upload field, the \"add to cart\" button (on shop page and on widgets) is replaced by a \"View\" button that forces the customer to enter the product page and upload a file after adding it to the basket.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    "False",
+                    "True"
+                ],
+                "default_value": [
+                    0
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5eaa8327337a6",
+                "label": "Misc",
+                "name": "wcuf_general_options_divider_3",
+                "type": "divider",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "custom_css": "",
+                "font_size": 14
+            },
+            {
+                "key": "field_59b419e886b67",
+                "label": "Checkout - Files to order association method",
+                "name": "wcuf_checkout_file_association_method",
+                "type": "select",
+                "instructions": "By default files are associated to order only when the user lands into the <strong>Thank you<\/strong> page. This avoid to associate files if an user aborts the payment. In alternative the system can associate files to order just when the order is placed. Select the method you wish.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "thank_you": "When the payment is completed (Thank you page)",
+                    "order_placed": "When the order is placed"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9fa91e9911c",
+                "label": "Image preview method",
+                "name": "wcuf_image_preview_method",
+                "type": "select",
+                "instructions": "<p>Image preview are served using the <strong>New<\/strong> method that automatically recreates small image preview from originals in order to keep preview lightweight. This is helpful in case the of multiple big files size upload.<\/p>\r\n<p>However if you notice any issue on image preview display, switch to the <strong>Old<\/strong> method.<\/p>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "new": "New",
+                    "old": "Old"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_56daf36373525",
+                "label": "Remove random number prefix to uploaded file name",
+                "name": "wcuf_remove_random_number_prefix",
+                "type": "select",
+                "instructions": "By default, for security reasons, WCUF adds a random number as prefix to the uploaded file. Optionally you can disable this feature. This option is only for single file upload fields.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_586cbaa1a8b0b",
+                "label": "Temp files clear interval (minutes)",
+                "name": "wcuf_temp_files_clear_interval",
+                "type": "number",
+                "instructions": "Temp uploaded files are deleted after a fixed time interval. Adjust the time range according to you needs.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 60,
+                "placeholder": "Default value: 60",
+                "prepend": "",
+                "append": "",
+                "min": 1,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56f537fb95820",
+                "label": "Disable upload field standard managment",
+                "name": "wcuf_pages_in_which_standard_upload_fields_managment_is_disabled",
+                "type": "checkbox",
+                "instructions": "Select in which page you want to complete disable upload fields standard managment. You have to disable the standard managment if you want to use the shortcodes in one of following pages:",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "cart": "Cart page",
+                    "product": "Product pages",
+                    "checkout": "Checkout"
+                },
+                "allow_custom": 0,
+                "default_value": [],
+                "layout": "horizontal",
+                "toggle": 1,
+                "return_format": "value",
+                "save_custom": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5ce6834fc0814",
+        "title": "WooCommerce Upload Files - Upload files configurator page",
+        "fields": [
+            {
+                "key": "field_5ce6835ccfb6e",
+                "label": "Force reloading 3rd party javascript libraries",
+                "name": "wcuf_configurator_page_load_3rd_party_js",
+                "type": "true_false",
+                "instructions": "Switch to \"Yes\" ONLY incase you are getting 3rd party javascript errors. This option may help prevent them.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_569cb2e2da65d",
+                "label": "Show warning alert on Upload files configurator page",
+                "name": "wcuf_show_warning_alert_on_configurator",
+                "type": "select",
+                "instructions": "In case of javascript error due to 3rd party plugins\/theme that may prevent the configurator to work properly, an alert is show on upload fields configurator page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_value": [
+                    "yes"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_58b4654890a9b",
+        "title": "WooCommerce Upload Files – Products addable multiple times to cart",
+        "fields": [
+            {
+                "key": "field_58ee3a5f36295",
+                "label": "All products can be added multiple times to cart?",
+                "name": "wcuf_sell_all_products_as_individual",
+                "type": "true_false",
+                "instructions": "This allows customers to add different times same products to cart. Choose if all products can be added different to cart or only the selected ones.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": "Only the selected ones"
+            },
+            {
+                "key": "field_58b4656905764",
+                "label": "Select products",
+                "name": "wcuf_individual_products",
+                "type": "post_object",
+                "instructions": "Select which product has to be sold as individual. This means that adding multiple time the same product, they will be added to cart as distinct products.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_58ee3a5f36295",
+                            "operator": "!=",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "product",
+                    "product_variation"
+                ],
+                "taxonomy": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "return_format": "id",
+                "ui": 1
+            },
+            {
+                "key": "field_58b465c905765",
+                "label": "Select categories",
+                "name": "wcuf_individual_product_categories",
+                "type": "taxonomy",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_58ee3a5f36295",
+                            "operator": "!=",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "taxonomy": "product_cat",
+                "field_type": "multi_select",
+                "allow_null": 0,
+                "add_term": 0,
+                "save_terms": 0,
+                "load_terms": 0,
+                "return_format": "id",
+                "multiple": 0
+            },
+            {
+                "key": "field_58b466c605767",
+                "label": "Children categories",
+                "name": "wcuf_individual_products_children_categories",
+                "type": "radio",
+                "instructions": "If at least one category has been selected, you can decide to apply the \"sold as individual\" also to children categories items.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_58ee3a5f36295",
+                            "operator": "!=",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "selected_only": "Apply to selected categories only",
+                    "all_children": "Apply to selected categories and all its children"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-products-addable-multiple-times-to-cart"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_575997c343ba1",
+        "title": "WooCommerce Upload Files – Texts",
+        "fields": [
+            {
+                "key": "field_575997d817d41",
+                "label": "Drag & drop area instruction - Single file upload",
+                "name": "wcuf_drag_and_drop_area_single_file_instruction",
+                "type": "text",
+                "instructions": "<p><strong>NOTE:<\/strong> If you are using WPML you can translate all button texts by switching language using the WPML language menu.<\/p>\r\n<p>&nbsp;<\/p>\r\n<p>This is the text displayed for the drag & drop area used for single file upload fields type.  In case you disabled the Drag & Drop feature through the Options menu, this text will be used for the <i>Browse<\/i> button<\/p>",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Click to choose the file or drag it here",
+                "placeholder": "Default text: Click to choose the file or drag it here",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5cae09aad86ce",
+                "label": "Drag & drop area instruction - Multiple files selection",
+                "name": "wcuf_drag_and_drop_area_instruction",
+                "type": "text",
+                "instructions": "<p><strong>NOTE:<\/strong> If you are using WPML you can translate all button texts by switching language using the WPML language menu.<\/p>\r\n<p>&nbsp;<\/p>\r\n<p>This is the text displayed for the drag & drop area used for multiple files upload fields type.  In case you disabled the Drag & Drop feature through the Options menu, this text will be used for the <i>Add files<\/i> button<\/p>",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Click to choose the files or drag them here",
+                "placeholder": "Default text: Click to choose the files or drag them here",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_597c24d6bae5f",
+                "label": "Cart individual item identifier",
+                "name": "wcuf_cart_individual_item_identifier",
+                "type": "text",
+                "instructions": "By default, if the <i>sell as individual<\/i> option as been enabled, same items on cart are idetified using the followin id format: Product_1 <strong>#1<\/strong>, Product_1 <strong>#2<\/strong>, Product_1 <strong>#3<\/strong>. The <strong>#<\/strong> can be customized using this option.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#",
+                "placeholder": "Default text: #",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_577fdd7416205",
+                "label": "Select quantity label",
+                "name": "wcuf_select_quantity_label",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Select quantity<\/strong> label showed in case of multiple file upload and if the special option has been enabled in the <strong>Option<\/strong> menu.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Select quantity:",
+                "placeholder": "Default text: Select quantity:",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5759987217d43",
+                "label": "Upload selected files button",
+                "name": "wcuf_upload_selected_files_button",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Upload selected files<\/strong> button used to upload multiple files.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Upload selected files",
+                "placeholder": "Default text: Upload selected files",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_575998af17d44",
+                "label": "Delete files button",
+                "name": "wcuf_delete_file_button",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Delete file<\/strong> button text used to delete uploaded files.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Delete uploaded file(s)",
+                "placeholder": "Default text: Delete uploaded file(s)",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d00b9e3c0803",
+                "label": "View button",
+                "name": "wcuf_view_button_label",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>View<\/strong> button label. The <strong>View<\/strong> button is shown instead of the default <strong>Add to cart<\/strong> button text on the Shop page in case the product has at least one upload field associated.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "View",
+                "placeholder": "Default value: View",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b4c85bf58443",
+                "label": "Deleting file(s) message",
+                "name": "wcuf_deleting_files_message",
+                "type": "text",
+                "instructions": "This is the text is displayed when deleting a file.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Deleting file, please wait...",
+                "placeholder": "Default value: Deleting file, please wait...",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b4c85f558444",
+                "label": "Loading upload field message",
+                "name": "wcuf_processing_data_message",
+                "type": "text",
+                "instructions": "This is the text is displayed when loading an upload filed when a variation is selected or after a file delete.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Loading, please wait...",
+                "placeholder": "Default value: Loading, please wait...",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b4c865e58445",
+                "label": "Saving data message",
+                "name": "wcuf_save_in_progress_message",
+                "type": "text",
+                "instructions": "This is the text is displayed when saving uploaded files.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Save in progress, please wait...",
+                "placeholder": "Default value: Save in progress, please wait...",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a58d13fc6a55",
+                "label": "Rotate left button  (Crop feature)",
+                "name": "wcuf_rotate_left_button",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Rotate left<\/strong> button used to rotate left an image that has to be cropped.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Rotate left",
+                "placeholder": "Default value: Rotate left",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a58d177c6a56",
+                "label": "Rotate right button  (Crop feature)",
+                "name": "wcuf_rotate_right_button",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Rotate right<\/strong> button used to rotate right an image that has to be cropped.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "33",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Rotate right",
+                "placeholder": "Default value: Rotate right",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5759997617d45",
+                "label": "Crop & Upload button",
+                "name": "wcuf_crop_and_upload_button",
+                "type": "text",
+                "instructions": "This is the text used for the <strong>Crop & Upload<\/strong> button used crop image files and upload them.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "34",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Crop & Upload",
+                "placeholder": "Default value: Crop & Upload button",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_57b32a51a792c",
+                "label": "Incomplete files upload (multiple file uploads)",
+                "name": "wcuf_incomplete_files_upload_message",
+                "type": "text",
+                "instructions": "This is the text used to display a warning message when the user has not properly completed a multiple file upload.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Your file upload is incomplete – click on the 'Upload selected files' button or remove the file(s)",
+                "placeholder": "Default text: Your file upload is incomplete – click on the 'Upload selected files' button or remove the file(s)",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5832b598e912b",
+                "label": "Required upload text message (visible when the add to cart button is hidden for required upload(s))",
+                "name": "wcuf_required_upload_add_to_cart_warning_message",
+                "type": "text",
+                "instructions": "In case of required upload(s) this is the text message that replaces the add to cart button to let the user know that they have to upload a file before being able to add the product to cart.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Please upload all the required file(s). Once done you will be able to add the product to cart.",
+                "placeholder": "Default text: Please upload all the required file(s). Once done you will be able to add the product to cart.",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5bb5d8d42ce79",
+                "label": "Totals area - Title",
+                "name": "wcuf_totals_area_title",
+                "type": "text",
+                "instructions": "This is the title for the Totals area optionally displayed in the product and summary boxes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Totals",
+                "placeholder": "Default text: Totals",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5bb5d9b98ae10",
+                "label": "Totals area - Number of uploaded files label",
+                "name": "wcuf_totals_num_files_label",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Number of uploaded files:",
+                "placeholder": "Default text: Number of uploaded files:",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5bb5da138ae11",
+                "label": "Totals area - Extra costs label",
+                "name": "wcuf_totals_extra_costs_label",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Extra costs:",
+                "placeholder": "Default text: Extra costs:",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-texts"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5a4df20213051",
+        "title": "WooCommerce Upload Files - Order status change",
+        "fields": [
+            {
+                "key": "field_5a4df2a00acc8",
+                "label": "Order details \/ Thank you page - change order status if at least one upload is performed?",
+                "name": "wcuf_order_details_page_change_order_status",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5a4df3e8812c2",
+                "label": "Which statuses have to been considered",
+                "name": "wcuf_current_status_to_consider",
+                "type": "order_staus_selector",
+                "instructions": "If the order status is one of the selected, its status will be changed. <strong>If none is selected order status will be changed no matter what which is its current status<\/strong>.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5a4df2a00acc8",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_value": "name",
+                "allowed_order_statuses": "",
+                "field_type": "checkbox"
+            },
+            {
+                "key": "field_5a4df46f99159",
+                "label": "Which status has to be assigned",
+                "name": "wcuf_status_to_assign",
+                "type": "order_staus_selector",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5a4df2a00acc8",
+                            "operator": "==",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "return_value": "name",
+                "allowed_order_statuses": "",
+                "field_type": "select"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5ae351a5e28cd",
+        "title": "WooCommerce Upload Files - Preview",
+        "fields": [
+            {
+                "key": "field_56c6dff1eeed5",
+                "label": "Summary box",
+                "name": "wcuf_display_summary_box_strategy",
+                "type": "checkbox",
+                "instructions": "Optionally can be displayed a summary box containing the names of all the uploaded files. Click on which pages it has to be displayed. <strong>Note:<\/strong>Thank you page is the one displayed after the checkout process after a payment has been completed.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "cart": "Cart page",
+                    "checkout": "Checkout page",
+                    "thank_you": "Thank you page",
+                    "order_details": "Order details page"
+                },
+                "allow_custom": 0,
+                "save_custom": 0,
+                "default_value": [],
+                "layout": "horizontal",
+                "toggle": 1,
+                "return_format": "value"
+            },
+            {
+                "key": "field_56d418494750f",
+                "label": "Summary box info to display",
+                "name": "wcuf_summary_box_info_to_display",
+                "type": "checkbox",
+                "instructions": "Select which info display in summary box. If none is selected, image name and preview will be showed as default.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "file_name": "File name(s)",
+                    "preview_image": "Preview image(s)",
+                    "feedback_text": "Feedback text"
+                },
+                "allow_custom": 0,
+                "default_value": [
+                    "file_name",
+                    "preview_image"
+                ],
+                "layout": "vertical",
+                "toggle": 0,
+                "return_format": "value",
+                "save_custom": 0
+            },
+            {
+                "key": "field_59f85b710f839",
+                "label": "Show image\/icon previews on Cart and Checkout products table",
+                "name": "wcuf_cart_and_checkout_item_table_image_preview",
+                "type": "select",
+                "instructions": "Show image previews or file icons on <strong>Cart and Checkout<\/strong> products table. Next to each product will be showed the uploaded images or file icons with file names.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5ae3522584514",
+                "label": "Show image previews and file names list on Email products table",
+                "name": "wcuf_email_item_table_files_preview",
+                "type": "select",
+                "instructions": "<p>In the emails product table, for each product will be displayed the associated image previews (for jpg\/png files) and file names list (for other file types).<\/p>\r\n<p><strong>NOTE:<\/strong> to display previews and file names list in the New Order email, in the <strong>Checkout - Files to order association method<\/strong> option select the <strong>When the order is placed<\/strong> option.<\/p>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5ac4806fec1ba",
+                "label": "Replace product thumb with uploaded images preview on Cart products table",
+                "name": "wcuf_replace_product_image_preview_on_product_table",
+                "type": "select",
+                "instructions": "On <strong>Cart product table<\/strong> the product thumb will be replaced with the preview of the uploaded images (only it they are valid jpg\/png files). Optionally can be only showed the preview for the first image uploaded by the user.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes",
+                    "only_first": "Show only the first uploaded image preview"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5c5ab059bca44",
+                "label": "Admin order details page - disable order items image preview",
+                "name": "wcuf_admin_order_items_image_preview",
+                "type": "select",
+                "instructions": "<p>By default image previews associated to order items are showed inside the order items table. Use this options to disable the previews.<\/p>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5bb5c5d380067",
+        "title": "WooCommerce Upload Files - Totals info displayer",
+        "fields": [
+            {
+                "key": "field_5bb5c5d3a062f",
+                "label": "Show Totals area in the product page",
+                "name": "wcuf_display_totals_in_product_page",
+                "type": "true_false",
+                "instructions": "Shows a text area reporting the total number of uploaded files and extra costs in the product page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5bb5c65b31547",
+                "label": "Show Totals area in the summary boxes",
+                "name": "wcuf_display_totals_in_summary_boxes",
+                "type": "true_false",
+                "instructions": "Shows a text area reporting the total number of uploaded files and extra costs in the summary boxes.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5bb5c6a231548",
+                "label": "Info to report in the Totals area",
+                "name": "wcuf_totals_info_to_display",
+                "type": "checkbox",
+                "instructions": "Select which info have to be reported in the Totals area",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "num_files": "Total number of uploaded files",
+                    "costs": "Total extra costs"
+                },
+                "allow_custom": 0,
+                "default_value": [
+                    "num_files"
+                ],
+                "layout": "horizontal",
+                "toggle": 1,
+                "return_format": "value",
+                "save_custom": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_57ff8fbee7fa9",
+        "title": "WooCommerce Upload Files - Cloud",
+        "fields": [
+            {
+                "key": "field_57ff8cee72545",
+                "label": "Cloud storage service",
+                "name": "wcuf_cloud_storage_service",
+                "type": "select",
+                "instructions": "Select if files have to be locally saved in your server or in cloud.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "locally": "Locally",
+                    "dropbox": "Dropbox"
+                },
+                "default_value": [],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57ff8d4372546",
+                "label": "Dropbox auth key",
+                "name": "wcuf_dropbox_auth_key",
+                "type": "text",
+                "instructions": "Please click on <a href=\"https:\/\/vanquishplugins.com\/wcuf\/auth\/index.php\" target=\"_blank\">THIS LINK<\/a>, autorize the app to access to your dropbox profile and then paste the generated Access Token in the following text input.",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ff8cee72545",
+                            "operator": "==",
+                            "value": "dropbox"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_568132c46c415",
+        "title": "WooCommerce Upload Files - Fields positioning",
+        "fields": [
+            {
+                "key": "field_568132e576737",
+                "label": "Product page",
+                "name": "wcuf_browse_button_position",
+                "type": "select",
+                "instructions": "Chose where the Upload field has to be displayed. For \"simple\" products, \"After variation options dropdown(s)\" and \"Before variation options dropdown(s)\" will have same effects, will render upload fields before the \"Add to cart\" button.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "woocommerce_before_add_to_cart_button": "After variable options dropdown(s) and before add to cart button",
+                    "woocommerce_before_add_to_cart_form": "Before both variable options dropdown(s)\tand add to cart button",
+                    "woocommerce_after_add_to_cart_button": "After add to cart button",
+                    "woocommerce_product_thumbnails": "After product images",
+                    "woocommerce_before_single_product_summary": "Before product Images",
+                    "woocommerce_single_product_summary": "Before short description",
+                    "woocommerce_after_single_product_summary": "After product description"
+                },
+                "default_value": [
+                    "woocommerce_before_add_to_cart_form"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            },
+            {
+                "key": "field_569cc4e85cba5",
+                "label": "Cart page",
+                "name": "wcuf_cart_page_positioning",
+                "type": "select",
+                "instructions": "Show where the uploads fields has to be displayed in cart page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "woocommerce_before_cart_table": "Before cart table",
+                    "woocommerce_after_cart_table": "After cart table"
+                },
+                "default_value": [
+                    "woocommerce_before_cart_table"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_56a9c70ed4c14",
+                "label": "Checkout page",
+                "name": "wcuf_checkout_page_positioning",
+                "type": "select",
+                "instructions": "Show where the uploads fields has to be displayed in cart page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "woocommerce_checkout_before_customer_details": "Before billing and shipping forms",
+                    "woocommerce_before_checkout_billing_form": "Before billing form",
+                    "woocommerce_after_checkout_billing_form": "After billing form",
+                    "woocommerce_before_checkout_shipping_form": "Before shipping form (Note: shipping form must be visible)",
+                    "woocommerce_after_checkout_shipping_form": "After shipping form (Note: shipping form must be visible)",
+                    "woocommerce_before_order_notes": "Before order notes",
+                    "woocommerce_after_order_notes": "After order notes",
+                    "woocommerce_checkout_before_order_review": "Before order & payment review",
+                    "woocommerce_checkout_after_order_review": "After order & payment review"
+                },
+                "default_value": [
+                    "woocommerce_after_checkout_billing_form"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a89bb3f6045f",
+                "label": "Order details \/ Thank you page",
+                "name": "wcuf_order_details_page_positioning",
+                "type": "select",
+                "instructions": "Show where the uploads fields has to be displayed in Order details \/ Thank you page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "woocommerce_order_details_after_order_table": "After order items table",
+                    "woocommerce_order_details_after_order_table_items": "Before order items table"
+                },
+                "default_value": [
+                    "woocommerce_order_details_after_order_table"
+                ],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "ajax": 0,
+                "return_format": "value",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_56c6d6b17ba57",
+        "title": "WooCommerce Upload Files – Style (General)",
+        "fields": [
+            {
+                "key": "field_56812878efd11",
+                "label": "Bar color",
+                "name": "wcuf_bar_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "#808080"
+            },
+            {
+                "key": "field_5cb57570e5ed7",
+                "label": "Disable Drag & Drop for multiple files upload",
+                "name": "wcuf_drag_and_drop_disable",
+                "type": "true_false",
+                "instructions": "You can optionally disable the Drag & Drop area for multiple files upload. A button will be displayed instead. To customize the button text use the <strong>Drag & drop area instruction<\/strong> option you find in the <stong>Texts<\/strong> menu.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_56bc7fc820a0a",
+                "label": "Image\/Icon preview size  for landscape image (width > height)",
+                "name": "wcuf_image_preview_width",
+                "type": "number",
+                "instructions": "<p>The preview will maintain aspect ratio, so when detecting landscape type images (width > height) this is the value used for image\/icon preview height by the [file_name_with_image_preview] shortcode, upload summary, cart table previews, etc. If left empty or 0, the default 50 value will be used.<\/p>\r\n<p>In case of <strong>square<\/strong> images, both the  landscape and portrait will be used<\/strong>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 50,
+                "placeholder": "Default is 50",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56bc805020a0b",
+                "label": "Image\/Icon preview size for portrait images (height > width)",
+                "name": "wcuf_image_preview_height",
+                "type": "number",
+                "instructions": "<p>The preview will maintain aspect ratio, so when detecting protrait type images (height > width) this is the value used for image\/icon preview height by the [file_name_with_image_preview] shortcode, upload summary, cart table previews, etc. If left empty or 0, the default 50 value will be used.<\/p>\r\n<p>In case of <strong>square<\/strong> images, both the  landscape and portrait will be used<\/strong>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 50,
+                "placeholder": "Default is 50",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56c72067cf478",
+                "label": "Upload field title color",
+                "name": "wcuf_css_upload_field_title_color",
+                "type": "color_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": ""
+            },
+            {
+                "key": "field_56c8235b3e228",
+                "label": "Upload field title font size",
+                "name": "wcuf_css_upload_field_title_font_size",
+                "type": "number",
+                "instructions": "Leave empty to inherit from theme.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "min": 1,
+                "max": "",
+                "step": 1,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56c6d7467f3c8",
+                "label": "Notice text margin top",
+                "name": "wcuf_css_notice_text_margin_top",
+                "type": "number",
+                "instructions": "Margin top (px) of the notice text: (Max size: XXMB. Max file: X )",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 5,
+                "min": 0,
+                "max": "",
+                "step": 1,
+                "placeholder": "Default value is 5",
+                "prepend": "",
+                "append": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_56c6d80b1ccfc",
+                "label": "Notice text margin bottom",
+                "name": "wcuf_css_notice_text_margin_bottom",
+                "type": "number",
+                "instructions": "Margin bottom (px) of the notice text: (Max size: XXMB. Max file: X )",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 50,
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 0,
+                "min": 0,
+                "max": "",
+                "step": 1,
+                "placeholder": "Default value is 0",
+                "prepend": "",
+                "append": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_58fdff0ee8d97",
+                "label": "Feedback text area width",
+                "name": "wcuf_feedback_text_area_width",
+                "type": "number",
+                "instructions": "Feedback text area width (px). Leave empty or set to 0 to use theme default.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Default value is 300. Leave empty or set to 0 to use theme default.",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56c6d8201ccfd",
+                "label": "Feedback text area height",
+                "name": "wcuf_css_feedback_text_area_height",
+                "type": "number",
+                "instructions": "Feedback text area height (px). Leave empty or set to 0 to use theme default.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 100,
+                "placeholder": "Default value is 100. Leave empty or set to 0 to use theme default.",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56c6d89d1ccfe",
+                "label": "Feedback text area margin top",
+                "name": "wcuf_css_feedback_text_area_margin_top",
+                "type": "number",
+                "instructions": "Feedback text area margin top (px)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 0,
+                "placeholder": "Default value is 0",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_56c6d9171ccff",
+                "label": "Feedback text area margin bottom",
+                "name": "wcuf_css_feedback_text_area_margin_bottom",
+                "type": "number",
+                "instructions": "Feedback text area margin bottom (px)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 5,
+                "placeholder": "Default value is 5",
+                "prepend": "",
+                "append": "",
+                "min": 0,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_568131f8bf16f",
+                "label": "Additional \"Browse\" button class",
+                "name": "wcuf_additional_button_class",
+                "type": "text",
+                "instructions": "You can add a class to the \"Browse\" button used in the product, checkout and order details pages.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "class_name",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57284c445b6ce",
+                "label": "Distance between upload buttons",
+                "name": "wcuf_css_distance_between_upload_buttons",
+                "type": "number",
+                "instructions": "Distance between \"Add files\" and \"Upload selected files\" buttons",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2,
+                "min": 0,
+                "max": "",
+                "step": 1,
+                "placeholder": "Default value is 2",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57bf042e753b0",
+                "label": "Upload field title style",
+                "name": "wcuf_upload_field_title_style",
+                "type": "select",
+                "instructions": "Select which title tag has to be used to display the upload field name.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "h4": "h4 (default)",
+                    "h1": "h1",
+                    "h2": "h2",
+                    "h3": "h3",
+                    "h5": "h5",
+                    "h6": "h6"
+                },
+                "default_value": [
+                    "h4"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57bf0337753af",
+                "label": "Product name title style",
+                "name": "wcuf_product_title_style",
+                "type": "select",
+                "instructions": "If an upload field is bouded to products it will also display product title. Choose which title tag has to be used.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "h5": "h5 (default)",
+                    "h1": "h1",
+                    "h2": "h2",
+                    "h3": "h3",
+                    "h4": "h4",
+                    "h6": "h6"
+                },
+                "default_value": [
+                    "h5"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 3,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_57eb7dc676bad",
+        "title": "WooCommerce Upload Files – Style (Cart, Checkout, Order and Shortcodes pages)",
+        "fields": [
+            {
+                "key": "field_57ecf0c32f208",
+                "label": "Checkout page - Display multiple upload fields per row",
+                "name": "checkout_page_multiple_upload_fields_per_row",
+                "type": "select",
+                "instructions": "Fields are grouped and displayed in rows. According to the upload field width, the row will contain more or less elements. By default each row has one element.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57eb7957a9793",
+                "label": "Checkout page upload field width",
+                "name": "wcuf_checkout_page_upload_field_width",
+                "type": "number",
+                "instructions": "Fields are grouped and displayed in rows. According to the upload field width, the row will contain more or less elements.",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf0c32f208",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 320,
+                "min": "",
+                "max": "",
+                "step": "",
+                "placeholder": "Default value is 320",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57eb79c3a9794",
+                "label": "Width type",
+                "name": "wcuf_checkout_page_upload_field_width_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf0c32f208",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "pixel": "Pixel",
+                    "percentage": "Percentage"
+                },
+                "default_value": [
+                    "pixel"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57ecf1842f209",
+                "label": "Cart page - Display multiple upload fields per row",
+                "name": "cart_page_multiple_upload_fields_per_row",
+                "type": "select",
+                "instructions": "Fields are grouped and displayed in rows. According to the upload field width, the row will contain more or less elements. By default each row has one element.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57eb7c19a979b",
+                "label": "Cart page upload field width",
+                "name": "wcuf_cart_page_upload_field_width",
+                "type": "number",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf1842f209",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 320,
+                "min": "",
+                "max": "",
+                "step": "",
+                "placeholder": "Default value is 320",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57eb7c33a979c",
+                "label": "Width type",
+                "name": "wcuf_cart_page_upload_field_width_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf1842f209",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "pixel": "Pixel",
+                    "percentage": "Percentage"
+                },
+                "default_value": [
+                    "pixel"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57ecf1c52f20a",
+                "label": "Order page - Display multiple upload fields per row",
+                "name": "order_page_multiple_upload_fields_per_row",
+                "type": "select",
+                "instructions": "Fields are grouped and displayed in rows. According to the upload field width, the row will contain more or less elements. By default each row has one element.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57eb7a17a9795",
+                "label": "Order page upload field width",
+                "name": "wcuf_order_page_upload_field_width",
+                "type": "number",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf1c52f20a",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 320,
+                "min": "",
+                "max": "",
+                "step": "",
+                "placeholder": "Default value is 320",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57eb7a30a9796",
+                "label": "Width type",
+                "name": "wcuf_order_page_upload_field_width_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf1c52f20a",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "pixel": "Pixel",
+                    "percentage": "Percentage"
+                },
+                "default_value": [
+                    "pixel"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57ecf2032f20b",
+                "label": "Shortcode page - Display multiple upload fields per row",
+                "name": "shortcode_page_multiple_upload_fields_per_row",
+                "type": "select",
+                "instructions": "Fields are grouped and displayed in rows. According to the upload field width, the row will contain more or less elements. By default each row has one element.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "no": "No",
+                    "yes": "Yes"
+                },
+                "default_value": [],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            },
+            {
+                "key": "field_57eb7ac4a9799",
+                "label": "Shortcode page upload field width",
+                "name": "wcuf_shortcode_page_upload_field_width",
+                "type": "number",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf2032f20b",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "70",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 320,
+                "min": "",
+                "max": "",
+                "step": "",
+                "placeholder": "Default value is 320",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_57eb7a7ea9798",
+                "label": "Width type",
+                "name": "wcuf_shortcode_page_upload_field_width_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_57ecf2032f20b",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "30",
+                    "class": "",
+                    "id": ""
+                },
+                "multiple": 0,
+                "allow_null": 0,
+                "choices": {
+                    "pixel": "Pixel",
+                    "percentage": "Percentage"
+                },
+                "default_value": [
+                    "pixel"
+                ],
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": "",
+                "return_format": "value"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 4,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5714a3a2de46d",
+        "title": "WooCommerce Upload Files – Crop controller",
+        "fields": [
+            {
+                "key": "field_5714a3c24a8df",
+                "label": "Crop controller width",
+                "name": "wcuf_crop_area_width",
+                "type": "number",
+                "instructions": "The value rapresent the width (in pixels) of the crop controller used to edit the image.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 280,
+                "placeholder": "Default value: 280",
+                "prepend": "",
+                "append": "",
+                "min": 1,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5714a4964a8e0",
+                "label": "Crop controller height",
+                "name": "wcuf_crop_area_height",
+                "type": "number",
+                "instructions": "The value rapresent the height (in pixels) of the crop controller used to edit the image.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 280,
+                "placeholder": "Default value: 280",
+                "prepend": "",
+                "append": "",
+                "min": 1,
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5c88b3ccb6fc2",
+                "label": "Disable zoom controller",
+                "name": "wcuf_crop_disable_zoom_controller",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_5d5ac65a6cb5c",
+                "label": "Disable rotation controller",
+                "name": "wcuf_crop_disable_rotation_controller",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options-options"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

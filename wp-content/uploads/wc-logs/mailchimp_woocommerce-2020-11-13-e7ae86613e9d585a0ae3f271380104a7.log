@@ -1,0 +1,20 @@
+2020-11-13T15:55:32+00:00 NOTICE debug :: Order ID 3913 was processing and is now cancelled :: Array
+(
+    [new_order] => 
+    [tracking] => 
+)
+
+2020-11-13T15:55:32+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 3913
+2020-11-13T15:58:54+00:00 NOTICE order.member.updated :: Updated cristianistratescupersonal@gmail.com subscriber status to subscribed and language to 
+2020-11-13T15:58:54+00:00 NOTICE order_submit.success :: updateStoreOrder :: #3913 :: email: cristianistratescupersonal@gmail.com
+2020-11-13T22:01:26+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-11-13T22:01:35+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+

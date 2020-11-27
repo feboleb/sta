@@ -1,0 +1,60 @@
+.yith-ctpw-front .order_details p {
+    text-align: center;
+    font-size: 100%;
+    color: #444;
+    font-weight: bold;
+
+}
+.yith-ctpw-front .order_details {
+    list-style: none;
+    text-align: center;
+}
+.yith-ctpw-front ul.order_details li {
+    float: none;
+    display: inline-block;
+    width: 22%;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.yith-ctpw-front .order_details li:nth-child(even) {
+    background-color: #F5F5F5
+}
+
+.yith-ctpw-front h2.order_details_title, .yith-ctpw-front h2.customer_details, .yith-ctpw-front .billig_address_title h3, .yith-ctpw-front .shipping_address_title h3 {
+    font-size: 130%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.yith-ctpw-front ul.customer_details {
+    text-align: center;
+}
+
+.yith-ctpw-front .customer_details li {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    margin-right: 5px;
+    border: 1px solid #d1d1d1;
+}
+
+.yith-ctpw-front .customer_details li p {
+    background-color: whitesmoke;
+    display: inline-block;
+    margin:0;
+    margin-right: 2px;
+    padding: 0 2px;
+}
+
+.yith-ctpw-front .customer_details {
+    list-style: none;
+}
+
+.yith-ctpw-front address {
+    text-align: center;
+}
+
+.yith-ctpw-front .col2-set.addresses > div {
+    width: 50%;
+    float: left;
+}

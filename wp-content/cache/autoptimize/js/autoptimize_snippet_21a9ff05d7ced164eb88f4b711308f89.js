@@ -1,0 +1,3 @@
+jQuery(function($){if(typeof wpmenucart_ajax_assist.shop_plugin!=='undefined'&&wpmenucart_ajax_assist.shop_plugin.toLowerCase()=='woocommerce'){wpmenucart_update_menu_classes();$(document.body).on('adding_to_cart added_to_cart updated_wc_div',wpmenucart_update_menu_classes);}
+function wpmenucart_update_menu_classes(){if(typeof window.Cookies!=='undefined'){items_in_cart=Cookies.get('woocommerce_items_in_cart');}else if(typeof $.cookie!=='undefined'&&$.isFunction($.cookie)){items_in_cart=$.cookie('woocommerce_items_in_cart');}else{return;}
+if(items_in_cart>0){$('.empty-wpmenucart').removeClass('empty-wpmenucart');}else if(!(wpmenucart_ajax_assist.always_display)){$('.wpmenucartli').addClass('empty-wpmenucart');$('.wpmenucart-shortcode').addClass('empty-wpmenucart');}}});

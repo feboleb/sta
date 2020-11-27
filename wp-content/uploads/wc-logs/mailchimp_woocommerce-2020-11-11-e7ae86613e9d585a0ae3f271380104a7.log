@@ -1,0 +1,11 @@
+2020-11-11T18:11:12+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-11-11T18:11:39+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+

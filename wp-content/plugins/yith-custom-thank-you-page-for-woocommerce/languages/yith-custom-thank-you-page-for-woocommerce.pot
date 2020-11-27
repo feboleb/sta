@@ -1,0 +1,288 @@
+# Copyright (C) 2019 YITH Custom Thank You Page for Woocommerce
+# This file is distributed under the same license as the YITH Custom Thank You Page for Woocommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Custom Thank You Page for Woocommerce 1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-11-29 11:09:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class.yith-custom-thankyou-page-admin.php:100
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:105
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:180
+msgid "Plugin documentation"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:184
+msgid "Help Center"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:191
+msgid "Discover the premium version"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:196
+msgid "Free vs Premium"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:201
+msgid "Premium live demo"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:206
+msgid "WordPress support forum"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:211
+#: includes/class.yith-custom-thankyou-page-admin.php:223
+msgid "Changelog"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:211
+#: includes/class.yith-custom-thankyou-page-admin.php:223
+msgid "current version"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-admin.php:218
+msgid "Support platform"
+msgstr ""
+
+#: includes/class.yith-custom-thankyou-page-frontend.php:162
+#: templates/woocommerce/yith_ctpw_header.php:2
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: init.php:50
+msgid "YITH Custom Thank You page for Woocommerce is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: panel/settings-options.php:22
+msgid "General settings"
+msgstr ""
+
+#: panel/settings-options.php:28
+msgid "Enable Custom ThankYou Page"
+msgstr ""
+
+#: panel/settings-options.php:30
+msgid "Check this option to enable plugin features"
+msgstr ""
+
+#: panel/settings-options.php:37
+msgid "Select the General Page"
+msgstr ""
+
+#: panel/settings-options.php:43
+msgid "Select the General Thank You Page for all products"
+msgstr ""
+
+#: panel/settings-options.php:48
+msgid "Custom CSS"
+msgstr ""
+
+#: premium/premium.php:231 premium/premium.php:398
+msgid "Upgrade to %1$spremium version%2$s of %1$sYITH Custom Thank You Page for WooCommerc%2$s to benefit from all features!"
+msgstr ""
+
+#: premium/premium.php:234 premium/premium.php:401
+msgid "UPGRADE"
+msgstr ""
+
+#: premium/premium.php:235 premium/premium.php:402
+msgid "to the premium version"
+msgstr ""
+
+#: premium/premium.php:241
+msgid "Premium Features"
+msgstr ""
+
+#: premium/premium.php:249
+msgid "Custom Thank You page per product"
+msgstr ""
+
+#: premium/premium.php:252
+msgid "A custom thank-you page for each product of your shop. %1$sCreate and associate a different Thank You page with each product.%2$s Only this will let you convey a different message based on your users’ peculiar interests."
+msgstr ""
+
+#: premium/premium.php:255
+msgid "Only this will let you convey a different message based on your users' peculiar interests."
+msgstr ""
+
+#: premium/premium.php:265
+msgid "Custom Thank You page per product category"
+msgstr ""
+
+#: premium/premium.php:268
+msgid "If you don’t want to work on each single product, you might be willing to do this for single product categories."
+msgstr ""
+
+#: premium/premium.php:271
+msgid "This way the user will be shown the %1$sthank-you page you have associated with the category%2$s the purchased product belongs to."
+msgstr ""
+
+#: premium/premium.php:287
+msgid "Set a priority"
+msgstr ""
+
+#: premium/premium.php:290
+msgid "Select which Thank You page to show if there are products in cart associated with different Thank You pages."
+msgstr ""
+
+#: premium/premium.php:300
+msgid "Product sharing"
+msgstr ""
+
+#: premium/premium.php:303
+msgid "Starting right from the Thank You page, users will be able to %1$sshare the products%2$s they’ve just bought on the %1$smost popular social networks.%2$s%3$s One more possibility to increase your product visibility."
+msgstr ""
+
+#: premium/premium.php:319
+msgid "Sharing-optimized URLs"
+msgstr ""
+
+#: premium/premium.php:322
+msgid "Thanks to services like %1$sBitly%2$s or %1$sGoogle%2$s, the sharing URLs will be optimised and you’ll never have to deal with extremely long URLs."
+msgstr ""
+
+#: premium/premium.php:332
+msgid "Order details"
+msgstr ""
+
+#: premium/premium.php:335
+msgid "Choose whether to show order details or not, thanks to the handy options in the plugin settings panel."
+msgstr ""
+
+#: premium/premium.php:351
+msgid "Upsell products"
+msgstr ""
+
+#: premium/premium.php:354
+msgid "Compose your own little showcase on your Thank You page and select the products to feature there."
+msgstr ""
+
+#: premium/premium.php:357
+msgid "This way, your customers could be shown more products from your shop in which they could be interested"
+msgstr ""
+
+#: premium/premium.php:367
+msgid "Colour palette"
+msgstr ""
+
+#: premium/premium.php:370
+msgid "Choose the colours that best suit your theme thanks to the options included in the plugin settings."
+msgstr ""
+
+#: premium/premium.php:386
+msgid "Thank you page for payment method"
+msgstr ""
+
+#: premium/premium.php:389
+msgid "Set a specific thank you page based on the payment method the customer chooses. Select either a pre-set page or use an external URL."
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:1
+msgid "Customer details"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:4
+msgid "Email:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:5
+msgid "Telephone:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:22
+msgid "Billing Address"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:26
+#: templates/woocommerce/yith_ctpw_customer_details.php:41
+msgid "N/A"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_customer_details.php:37
+msgid "Shipping Address"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_failed.php:2
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_failed.php:6
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_failed.php:8
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_failed.php:12
+msgid "Pay"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_failed.php:14
+msgid "My Account"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_header.php:4
+msgid "Order:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_header.php:8
+msgid "Date:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_header.php:12
+msgid "Total:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_header.php:17
+msgid "Payment method:"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_table.php:6
+msgid "Order Details"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_table.php:10
+msgid "Product"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_table.php:11
+msgid "Total"
+msgstr ""
+
+#: templates/woocommerce/yith_ctpw_table.php:50
+msgid "Download file %s"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "YITH Custom Thank You Page for Woocommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-custom-thank-you-page-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The <code><strong>YITH Custom ThankYou Page for Woocommerce</strong></code> shows a Thank You page to users buying in your shop. The page can be easily customized. Excellent to loyalize customers and show marketing campaigns after the purchase! <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

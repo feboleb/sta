@@ -1,0 +1,88 @@
+2020-10-31T14:26:58+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-10-31T14:27:52+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+
+2020-10-31T15:51:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-10-31T15:51:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 2443
+2020-10-31T15:51:49+00:00 NOTICE debug :: Order ID 2443 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?gclid=CjwKCAjw0On8BRAgEiwAincsHN1sL5rb9OomF0JYrEtKOJmsF_EHN_vNOPbFup6SpO_dvJcEanURQhoCmkAQAvD_BwE
+        )
+
+)
+
+2020-10-31T15:52:05+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 2444
+2020-10-31T15:52:06+00:00 NOTICE debug :: Order ID 2444 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?wc-ajax=update_order_review
+        )
+
+)
+
+2020-10-31T15:53:02+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+
+2020-10-31T15:54:22+00:00 NOTICE order.member.updated :: Updated adrianbejan.feb@gmail.com subscriber status to subscribed and language to ro
+2020-10-31T15:54:22+00:00 NOTICE order_submit.success :: addStoreOrder :: #2443 :: email: adrianbejan.feb@gmail.com :: landing site https://www.stampilerapide.ro/?gclid=CjwKCAjw0On8BRAgEiwAincsHN1sL5rb9OomF0JYrEtKOJmsF_EHN_vNOPbFup6SpO_dvJcEanURQhoCmkAQAvD_BwE
+2020-10-31T15:54:24+00:00 NOTICE order.member.updated :: Updated adrianbejan.feb@gmail.com subscriber status to subscribed and language to ro
+2020-10-31T15:54:24+00:00 NOTICE order_submit.success :: addStoreOrder :: #2444 :: email: adrianbejan.feb@gmail.com :: landing site https://www.stampilerapide.ro/?wc-ajax=update_order_review
+2020-10-31T16:44:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 1603
+2020-10-31T16:44:50+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-10-31T16:44:54+00:00 NOTICE product_submit.success :: updateStoreProduct :: #1603
+2020-10-31T16:44:55+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+
+2020-10-31T16:53:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit queued :: obj_id 1
+2020-10-31T16:53:20+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 2445
+2020-10-31T16:53:21+00:00 NOTICE debug :: Order ID 2445 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/comanda-finalizata/?order=2444&key=wc_order_9UauyKOKKukea&ctpw=2144
+        )
+
+)
+
+2020-10-31T16:54:27+00:00 NOTICE member.sync :: Updated Member adrianbejan.feb@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => Adrian
+            [LNAME] => Bejan
+        )
+
+)
+
+2020-10-31T17:09:10+00:00 NOTICE order.member.updated :: Updated adrianbejan.feb@gmail.com subscriber status to subscribed and language to ro
+2020-10-31T17:09:10+00:00 NOTICE order_submit.success :: addStoreOrder :: #2445 :: email: adrianbejan.feb@gmail.com :: landing site https://www.stampilerapide.ro/comanda-finalizata/?order=2444&key=wc_order_9UauyKOKKukea&ctpw=2144

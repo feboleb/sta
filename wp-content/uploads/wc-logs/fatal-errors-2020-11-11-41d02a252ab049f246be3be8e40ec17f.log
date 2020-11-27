@@ -1,0 +1,6 @@
+2020-11-11T19:13:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded în /home/stampil1/public_html/wp-includes/meta.php pe linia 573
+
+2020-11-11T19:16:56+00:00 CRITICAL Maximum execution time of 30 seconds exceeded în /home/stampil1/public_html/wp-includes/functions.php pe linia 690
+
+2020-11-11T19:21:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded în /home/stampil1/public_html/wp-includes/plugin.php pe linia 196
+

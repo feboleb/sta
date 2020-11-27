@@ -1,0 +1,17 @@
+2020-11-17T08:10:31+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id 14b263858989fa36eecb95e11f23973a
+2020-11-17T08:10:32+00:00 NOTICE abandoned_cart.success :: email: sabin@panovia.ro :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=14b263858989fa36eecb95e11f23973a
+2020-11-17T08:10:32+00:00 NOTICE cart.member.updated :: Updated sabin@panovia.ro subscriber status to transactional and language to ro
+2020-11-17T08:12:40+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 4005
+2020-11-17T08:12:42+00:00 NOTICE debug :: Order ID 4005 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?gclid=Cj0KCQiAhs79BRD0ARIsAC6XpaX9vBsI3pBda6kg9ewOVQ14DwCN7Z597v-GjX3Fc66emq_P26QH6-caAmMcEALw_wcB
+        )
+
+)
+
+2020-11-17T08:34:10+00:00 NOTICE order.member.updated :: Updated sabin@panovia.ro subscriber status to transactional and language to ro
+2020-11-17T08:34:10+00:00 NOTICE order_submit.success :: addStoreOrder :: #4005 :: email: sabin@panovia.ro :: landing site https://www.stampilerapide.ro/?gclid=Cj0KCQiAhs79BRD0ARIsAC6XpaX9vBsI3pBda6kg9ewOVQ14DwCN7Z597v-GjX3Fc66emq_P26QH6-caAmMcEALw_wcB :: abandoned cart deleted [14b263858989fa36eecb95e11f23973a]

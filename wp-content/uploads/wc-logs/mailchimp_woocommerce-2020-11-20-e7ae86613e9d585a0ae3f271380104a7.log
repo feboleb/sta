@@ -1,0 +1,19 @@
+2020-11-20T22:21:55+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Cart_Update queued :: obj_id eb11a5dcfb33662b1e937944a091bda5
+2020-11-20T22:22:05+00:00 NOTICE abandoned_cart.success :: email: munteanumar@gmail.com :: checkout_url: https://www.stampilerapide.ro/checkout/?mc_cart_id=eb11a5dcfb33662b1e937944a091bda5
+2020-11-20T22:22:05+00:00 NOTICE cart.member.updated :: Updated munteanumar@gmail.com subscriber status to transactional and language to ro
+2020-11-20T22:22:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 4009
+2020-11-20T22:22:31+00:00 NOTICE debug :: Order ID 4009 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => https://www.stampilerapide.ro/?gclid=CjwKCAiA7939BRBMEiwA-hX5Jzo4_nJnti2vBi8SFF07aQumImGAPyEIUNe-PC54Dui0-kbFfvj38xoCyu8QAvD_BwE
+        )
+
+)
+
+2020-11-20T22:31:11+00:00 NOTICE order.member.updated :: Updated munteanumar@gmail.com subscriber status to subscribed and language to ro
+2020-11-20T22:31:11+00:00 NOTICE order_submit.success :: addStoreOrder :: #4009 :: email: munteanumar@gmail.com :: landing site https://www.stampilerapide.ro/?gclid=CjwKCAiA7939BRBMEiwA-hX5Jzo4_nJnti2vBi8SFF07aQumImGAPyEIUNe-PC54Dui0-kbFfvj38xoCyu8QAvD_BwE :: abandoned cart deleted [eb11a5dcfb33662b1e937944a091bda5]
+2020-11-20T22:45:38+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 4008
+2020-11-20T22:46:07+00:00 NOTICE product_submit.success :: addStoreProduct :: #4008

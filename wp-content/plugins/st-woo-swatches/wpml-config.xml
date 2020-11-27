@@ -1,0 +1,6 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_product_attributes_swatch</custom-field>
+		<custom-field action="copy">_product_stwc_catalog_mode</custom-field>
+	</custom-fields>
+</wpml-config>
